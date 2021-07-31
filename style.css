@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(0 0 0 / 90%);
+    color: white;
+}
+.buttonContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+button{
+    padding: 7px;
+    background-color: inherit;
+    border-radius: 5px;
+}
+
+.button-dark{
+    color: aqua;
+    margin:0px 5px;
+    border-color: aqua;
+}
+
+.button-primary{
+    color: aquamarine;
+    border-color: aquamarine;
+}
+#barContainer
+{
+    margin: auto;
+    margin-top: 16px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.bar{
+    background-color: yellow;
+    width: -webkit-fill-available;
+    margin: 1px;
+}
